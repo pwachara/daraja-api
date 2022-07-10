@@ -39,9 +39,9 @@ app.get('/stk', getAccessToken, (req, res, next) => {
             "Timestamp": appTimestamp,
             "TransactionType": "CustomerPayBillOnline",
             "Amount": 1,
-            "PartyA": "254722210188",
+            "PartyA": "254722211188",
             "PartyB": 174379,
-            "PhoneNumber": "254722210188",
+            "PhoneNumber": "254722211188",
             "CallBackURL": "https://208d-154-154-207-176.in.ngrok.io/stk-callback",
             "AccountReference": "CompanyXLTD",
             "TransactionDesc": "Payment of X" 
