@@ -1,0 +1,22 @@
+{
+  "name": "daraja-api",
+  "version": "1.0.0",
+  "description": "mpesa stk-push api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mpesa",
+    "stk-push"
+  ],
+  "author": "P.Wachara",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
